@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    height: 300px;
+    width: 300px;
+}
+
+.celda {
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+}
+
+.estado {
+    text-align: center;
+}
+
+h1 {
+    justify-content: center ;
+}
