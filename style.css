@@ -19,10 +19,11 @@ body {
     border: 1px solid black;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
 }
 
 .estado {
-    text-align: center;
+    font-size: 40px;
 }
 
 h1 {
